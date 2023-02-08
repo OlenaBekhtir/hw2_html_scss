@@ -1,0 +1,14 @@
+@mixin title ($color-title, $font-size-title, $font-weight-title, $line-height-title) {
+    text-transform: uppercase;
+    color: $color-title;
+    font-size: $font-size-title;
+    font-weight: $font-weight-title;
+    line-height: $line-height-title;
+}
+
+@mixin text ($color-text, $font-size-text, $font-weight-text, $line-height-text) {
+    color: $color-text;
+    font-size: $font-size-text;
+    font-weight: $font-weight-text;
+    line-height: $line-height-text;
+} 

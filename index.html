@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="./dist/css/reset.css"> -->
+    <link rel="stylesheet" href="./dist/css/styles.min.css">
+    <title>HW2_Gulp_scss</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <ul class="header__container__nav-menu">
+                <li><a class="header__container__nav-menu-link" href="#">home</a></li>
+                <li><a class="header__container__nav-menu-link" href="#">about us</a></li>
+                <li><a class="header__container__nav-menu-link" href="#">our journal</a></li>
+                <li><a class="header__container__nav-menu-link" href="#">projects</a></li>
+                <li><a class="header__container__nav-menu-link" href="#">news</a></li>
+                <li><a class="header__container__nav-menu-link" href="#">features</a></li>
+                <li><a class="header__container__nav-menu-link" href="#">contact</a></li>
+            </ul>
+        </div>
+            
+        <div class="header__burger-toggler">
+            <div class="header__burger-toggler__line"></div>
+            <div class="header__burger-toggler__line"></div>
+            <div class="header__burger-toggler__line"></div>
+        </div>
+
+        <div>
+            <ul class="header__nav-menu-mobile">
+                <li class ="header__nav-menu-mobile__wrap-link"><a class="header__nav-menu-mobile__link" href="#">home</a></li>
+                <li class ="header__nav-menu-mobile__wrap-link"><a class="header__nav-menu-mobile__link" href="#">about us</a></li>
+                <li class ="header__nav-menu-mobile__wrap-link"><a class="header__nav-menu-mobile__link" href="#">our journal</a></li>
+                <li class ="header__nav-menu-mobile__wrap-link"><a class="header__nav-menu-mobile__link" href="#">projects</a></li>
+                <li class ="header__nav-menu-mobile__wrap-link"><a class="header__nav-menu-mobile__link" href="#">news</a></li>
+                <li class ="header__nav-menu-mobile__wrap-link"><a class="header__nav-menu-mobile__link" href="#">features</a></li>
+                <li class ="header__nav-menu-mobile__wrap-link"><a class="header__nav-menu-mobile__link" href="#">contact</a></li>
+            </ul>
+        </div>
+                
+        <img class="header__image" src="./dist/img/intro_img_max.png" alt="#">
+        <img class="header__image-middle" src="./dist/img/intro_img.png" alt="#">
+        <img class="header__image-min" src="./dist/img/intro_img_min.png" alt="#">
+
+    </header>
+
+    <main class="main">
+        <section class="main-section">
+            <div class="main-section__wrapper">
+                <h1 class="main-section__wrapper__title">our recent posts</h1>
+
+                <div class="main-section-table">
+                    <div class="main-section-table__first-col">
+                        <div class="main-section-card">
+                            <img class="main-section-card__img" src="./dist/img/post1img.png" alt="#">
+                            <div class="main-section-card__wrapper">
+                                <p class="main-section-card__wrapper__title">Aenean Adipiscing Etiam Vestibulum</p>
+                                <p class="main-section-card__wrapper__info">Photography, Journal / 9 Comments</p>
+                                <p class="main-section-card__wrapper__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem sequi iure possimus repudiandae esse maxime.</p>
+                            </div>                        
+                        </div>
+    
+                        <div class="main-section-card">
+                            <img class="main-section-card__img" src="./dist/img/post2img.png" alt="#">
+                            <div class="main-section-card__wrapper">
+                                <p class="main-section-card__wrapper__title">Aenean Adipiscing Etiam Vestibulum</p>
+                                <p class="main-section-card__wrapper__info">Photography, Journal / 9 Comments</p>
+                                <p class="main-section-card__wrapper__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem sequi iure possimus repudiandae esse maxime.</p>
+                            </div>                        
+                        </div>
+                    </div>
+                    
+                    <div class="main-section-table__second-col">
+                        <div class="main-section-card">
+                            <img class="main-section-card__img" src="./dist/img/post3img.png" alt="#">
+                            <div class="main-section-card__wrapper">
+                                <p class="main-section-card__wrapper__title">Aenean Adipiscing Etiam Vestibulum</p>
+                                <p class="main-section-card__wrapper__info">Photography, Journal / 9 Comments</p>
+                                <p class="main-section-card__wrapper__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem sequi iure possimus repudiandae esse maxime.</p>
+                            </div>                       
+                        </div>
+    
+                        <div class="main-section-card">
+                            <img class="main-section-card__img card-img-last" src="./dist/img/post4img.png" alt="#">
+                            <div class="main-section-card__wrapper card-last">
+                                <p class="main-section-card__wrapper__title">Aenean Adipiscing Etiam Vestibulum</p>
+                                <p class="main-section-card__wrapper__info">Photography, Journal / 9 Comments</p>
+                                <p class="main-section-card__wrapper__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem sequi iure possimus repudiandae esse maxime.</p>
+                            </div>                       
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+           
+           
+        </section>
+
+        <section class="main-section-instagram">
+            <div class="main-section-instagram__wrapper">
+                <a class="main-section-instagram__title first" href="#">latest instagram shots</a>
+                <a class="main-section-instagram__title second" href="#">go to our instagram page</a>
+            </div>
+            <div class="main-section-instagram__images">
+                <img class="main-section-instagram__images__img first-img" src="./dist/img/post_b1.png" alt="#">
+                <img class="main-section-instagram__images__img" src="./dist/img/post_b2.png" alt="#">
+                <img class="main-section-instagram__images__img" src="./dist/img/post_b3.png" alt="#">
+                <img class="main-section-instagram__images__img last-img" src="./dist/img/post_b4.png" alt="#">
+            </div>
+        </section>        
+    </main>
+
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <p class="footer__wrapper__title">get in touch with us</p>
+            <p class="footer__wrapper__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, veritatis magnam. In, iusto esse dolorem quibusdam debitis alias a enim perferendis laborum nesciunt labore qui!</p>
+            <p class="footer__wrapper__text-min">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati sed veritatis neque similique libero blanditiis. Lorem, ipsum. </p>
+            <div class="footer__wrapper__icons">
+                <a href="#"><img src="./dist/img/icons/RSS.svg" alt="#"></a> 
+                <a href="#"><img src="./dist/img/icons/Facebook.svg" alt="#"></a>  
+                <a href="#"><img src="./dist/img/icons/Twitter.svg" alt="#"></a>   
+                <a href="#"><img src="./dist/img/icons/Dribbble.svg" alt="#"></a>    
+                <a href="#"><img src="./dist/img/icons/Pinterest.svg" alt="#"></a>
+            </div>
+            <div class="footer__wrapper__contacts">Moonshine St. 14-05 Light City / <a class="contacts-link" href="tel:+00(123)456 78 90">T.+00(123)456 78 90 / </a><a class="contacts-link" href="mailto:first.last@email.com">first.last@email.com</a></div> 
+        </div>               
+    </footer>
+    
+    <script src="./dist/js/script.min.js"></script>
+</body>
+</html>
